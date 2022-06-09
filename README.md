@@ -14,10 +14,10 @@
 conda activate
 
 #下載序列
-(base)$ prefetch {srr的號碼}  
+(base)$ prefetch {SRR的號碼}  
 
 #從下載的sra檔案中提取fastq檔，特別注意新版的指令是 (base)$fasterq-dump
-(base)$ fastq-dump {srr的號碼} 
+(base)$ fastq-dump {SRR的號碼} 
 ``` 
 fastq檔會出現在sra的資料夾中
 
