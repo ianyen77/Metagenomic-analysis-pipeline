@@ -1,6 +1,6 @@
 # Metagenomic-analysis-pipeline 
 分析metagenomic的pipeline
-## Reads download & Reads QC/Trimming
+## Reads download/QC/Trimming
 
 ### SRAtool
 從NCBI下載reads
