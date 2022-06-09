@@ -3,7 +3,8 @@ This is the pipeline to analysis metagenomic data from scratch
 ## Reads download & Reads QC/Trimming
 
 ### SRAtool
-目地:從NCBI下載reads 
+從NCBI下載reads 
+
 #### Install
 請先在Linux 上安裝conda並安裝bioconda  
 ```~$ conda install -c bioconda sra-tools```
@@ -19,3 +20,6 @@ conda activate
 (base)$ fastq-dump {srr的號碼} 
 ``` 
 fastq檔會出現在sra的資料夾中
+
+### FastQC
+檢查序列質量
