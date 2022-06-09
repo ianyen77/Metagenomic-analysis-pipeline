@@ -7,7 +7,9 @@
 
 **Install**  
 請先在Linux 上安裝conda並安裝bioconda  
-```~$ conda install -c bioconda sra-tools```  
+```
+~$ conda install -c bioconda sra-tools
+```  
 
 **Usage**  
 ```
