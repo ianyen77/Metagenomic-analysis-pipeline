@@ -85,6 +85,14 @@ tar -xf {下載檔案}
 ```
 
 **Usage**  
+```
+cd {安裝的資料夾}
+
+＃因為他要在python的環境下運行 我們的python裝在conda的環境中 所以要把conda打開
+conda activate
+(base)/{安裝的資料夾}$ ./quast.py {所要評估contigs的所在位置} -o {輸出資料位置}
+```
+
 
 ### Prodigal
 prokaryotic open reading fram prediction  
