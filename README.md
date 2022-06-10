@@ -42,7 +42,7 @@ conda activate
 修剪序列，將低質量序列去除  
 https://github.com/OpenGene/fastp#install-with-bioconda
 
-**Install**  
+**Install**   
 請先在Linux 上安裝conda並安裝bioconda  
 ```
 # note: the fastp version in bioconda may be not the latest
@@ -62,6 +62,8 @@ conda activate
 ## Assembly
 ### Prodigal
 prokaryotic open reading fram prediction
-**Install**  
-```conda install -c bioconda prodigal```
-**Usage**  
+**Install**    
+```
+conda install -c bioconda prodigal
+```  
+**Usage**    
