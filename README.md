@@ -61,7 +61,18 @@ conda activate
 
 ## Assembly
 ### Megahit
-組裝reads
+組裝reads  
+https://github.com/voutcn/megahit  
+**Install**  
+```
+conda install -c bioconda megahit
+```   
+**Usage**  
+```
+conda activate
+(base)$ megahit -1 {乾淨的序列1.fq} -2 {乾淨的pe序列2.fq} -o {輸出的檔名} 
+```   
+
 ### Quast
 評估你組裝contigs的質量  
 **Install**  
