@@ -79,6 +79,11 @@ conda activate
 https://github.com/ablab/quast  
 
 **Install**  
+從他們的官網下載http://quast.sourceforge.net/ 並在你想要的資料夾中解壓縮  
+```
+tar -xf {下載檔案}
+```
+
 **Usage**  
 
 ### Prodigal
