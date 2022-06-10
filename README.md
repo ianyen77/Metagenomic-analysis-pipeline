@@ -8,7 +8,7 @@
 **Install**  
 請先在Linux 上安裝conda並安裝bioconda  
 ```
-~$ conda install -c bioconda sra-tools
+$ conda install -c bioconda sra-tools
 ```  
 
 **Usage**  
@@ -25,3 +25,34 @@ fastq檔會出現在sra的資料夾中
 
 ### FastQC
 檢查序列質量
+
+**Install**  
+請先在Linux 上安裝conda並安裝bioconda  
+```
+$conda install -c bioconda fastqc
+```  
+
+**Usage**  
+```
+conda activate
+(base)$ fastqc
+```
+
+### fastp
+修剪序列，將低質量序列去除  
+https://github.com/OpenGene/fastp#install-with-bioconda
+
+**Install**  
+請先在Linux 上安裝conda並安裝bioconda  
+```
+# note: the fastp version in bioconda may be not the latest
+conda install -c bioconda fastp
+```  
+
+**Usage**  
+```
+conda activate
+(base)$ fastp -i {你的序列1.fq} -I {你的序列2.fq} -o {你的修剪完的序列1.fq} -O{你的修剪完的序列2.fq}
+```
+基本參數設定
+
