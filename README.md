@@ -58,3 +58,10 @@ conda activate
 
 ## Taxanomic Profile
 ### Kraken2
+
+## Assembly
+### Prodigal
+prokaryotic open reading fram prediction
+**Install**  
+```conda install -c bioconda prodigal```
+**Usage**  
