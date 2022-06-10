@@ -56,3 +56,5 @@ conda activate
 ```
 基本參數設定
 
+## Taxanomic Profile
+### Kraken2
