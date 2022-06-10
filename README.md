@@ -70,7 +70,7 @@ conda install -c bioconda megahit
 **Usage**  
 ```
 conda activate
-(base)$ megahit -1 {乾淨的序列1.fq} -2 {乾淨的pe序列2.fq} -o {輸出的檔名} 
+(base)$ megahit -1 {乾淨的pe序列1.fq} -2 {乾淨的pe序列2.fq} -o {輸出的檔名} 
 ```   
 ＃有些參數需要在寫  
 
