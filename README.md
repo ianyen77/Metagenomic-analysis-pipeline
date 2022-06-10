@@ -72,11 +72,15 @@ conda install -c bioconda megahit
 conda activate
 (base)$ megahit -1 {乾淨的序列1.fq} -2 {乾淨的pe序列2.fq} -o {輸出的檔名} 
 ```   
+＃有些參數需要在寫  
 
 ### Quast
 評估你組裝contigs的質量  
+https://github.com/ablab/quast  
+
 **Install**  
 **Usage**  
+
 ### Prodigal
 prokaryotic open reading fram prediction  
 **Install**    
