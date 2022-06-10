@@ -60,6 +60,12 @@ conda activate
 ### Kraken2
 
 ## Assembly
+### Megahit
+組裝reads
+### Quast
+評估你組裝contigs的質量  
+**Install**  
+**Usage**  
 ### Prodigal
 prokaryotic open reading fram prediction  
 **Install**    
