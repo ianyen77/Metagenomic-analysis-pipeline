@@ -52,7 +52,7 @@ conda install -c bioconda fastp
 **Usage**  
 ```
 conda activate
-(base)$ fastp -i {你的序列1.fq} -I {你的序列2.fq} -o {你的修剪完的序列1.fq} -O{你的修剪完的序列2.fq}
+(base)$ fastp -i {你的序列1.fq} -I {你的序列2.fq} -o {修剪完的序列1.fq} -O{修剪完的序列2.fq}
 ```
 基本參數設定
 
