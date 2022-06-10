@@ -61,7 +61,7 @@ conda activate
 
 ## Assembly
 ### Prodigal
-prokaryotic open reading fram prediction
+prokaryotic open reading fram prediction  
 **Install**    
 ```
 conda install -c bioconda prodigal
