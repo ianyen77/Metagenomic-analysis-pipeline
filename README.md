@@ -57,7 +57,25 @@ conda activate
 基本參數設定
 
 ## Taxanomic Profile
-### Kraken2
+### Kraken
+short reads taxanomic assigment(k-mer algorithm)  
+**Install**  
+```
+$ conda install kraken2
+#檢查版本
+kraken2 –version
+#安裝更新
+$ conda update kraken2 -c bioconda
+#安裝資料庫
+#先設置存放位置(設定環境變數)
+$DBNAME={~/db/kraken2/database(你要把資料庫建在哪裡)}
+$mkdir -p DBNAME
+#測試設定之環境變數是否成功
+$cd $DBNAME
+# 下載物種註釋資料庫
+kraken2-build --download-taxonomy --threads{你要使用之線程數} --db $DBNAME
+```
+**Usage**  
 
 ## Assembly
 ### Megahit
