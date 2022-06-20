@@ -59,6 +59,7 @@ conda activate
 ## Taxanomic Profile
 ### Kraken
 short reads taxanomic assigment(k-mer algorithm)  
+https://github.com/DerrickWood/kraken2/wiki/Manual#installation  
 **Install**  
 ```
 $ conda install kraken2
