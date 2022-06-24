@@ -151,12 +151,13 @@ $conda create -n samtools
 $conda install  -c conda-forge -c bioconda samtools
 $conda update samtools
 ```  
-**Usage**   
+**Usage**  
 ```
-
-```
-
-
+conda activate samtools
+$samtools ........
+＃samtool 的用法很多 可以參考下列 如果有不知道的參數 samtools --help{conmand}
+＃https://zhuanlan.zhihu.com/p/89896205
+ 
 
 
 
