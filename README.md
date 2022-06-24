@@ -142,5 +142,21 @@ bowtie2-build {要做為參考contig的fasta檔} {製作的index要存放的位�
 bowtie2 -x {index的檔名（不要加上.x.bt2)} -1 {要mapping的pe序列1.fq} -2{要mapping的序列2.fq} -S {輸出的SAM檔}
 ```
 
+### SAMtools
+tidy up your SAM file
+   
+**Install**    
+```
+$conda create -n samtools
+$conda install  -c conda-forge -c bioconda samtools
+$conda update samtools
+```  
+**Usage**   
+```
+
+```
+
+
+
 
 
