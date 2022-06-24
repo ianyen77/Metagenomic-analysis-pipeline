@@ -139,7 +139,7 @@ conda install -c bioconda bowtie2
 #先建立refernce genome的index
 conda activate
 bowtie2-build {要做為參考contig的fasta檔} {製作的index要存放的位置及檔名（會有五六個文件同時被生成)}
-bowtie2 -x {index的檔名（不要加上結尾)} -1 {要mapping的pe序列1.fq} -2{要mapping的序列2.fq} -S {輸出的SAM檔}
+bowtie2 -x {index的檔名（不要加上.x.bt2)} -1 {要mapping的pe序列1.fq} -2{要mapping的序列2.fq} -S {輸出的SAM檔}
 ```
 
 
