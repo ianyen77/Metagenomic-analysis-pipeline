@@ -118,10 +118,29 @@ prokaryotic open reading fram prediction
 https://github.com/hyattpd/prodigal/wiki/understanding-the-prodigal-output#gene-coordinates    
 **Install**    
 ```
-conda install -c bioconda prodigal
+$conda install -c bioconda prodigal
 ```  
 **Usage**   
 ```
-prodigal -i {準備預測的contig} -f 輸出的格式 -p meta(此參數在調整你要選擇在那一種模式下跑 meta就是metagenomic) -o {你要輸出的資料夾位置} -a {輸出基因的核酸文件} -d {輸出基因的蛋白質序列} -s {輸出預測的分數文件}
+conda activate
+$prodigal -i {準備預測的contig} -f 輸出的格式 -p meta(此參數在調整你要選擇在那一種模式下跑 meta就是metagenomic) -o {你要輸出的資料夾位置} -a {輸出基因的核酸文件} -d {輸出基因的蛋白質序列} -s {輸出預測的分數文件}
 ```
+
+
+### Bowtie2
+mappinng reads to contigs then use sam tools to caculate contigs coverage   
+http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml#getting-started-with-bowtie-2-lambda-phage-example  
+**Install**    
+```
+conda install -c bioconda bowtie2
+```  
+**Usage**   
+```
+#先建立refernce genome的index
+conda activate
+bowtie2-build {要做為參考contig的fasta檔} {製作的index要存放的位置及檔名（會有五六個文件同時被生成)}
+bowtie2 -x {index的檔名（不要加上結尾)} -1 {要mapping的pe序列1.fq} -2{要mapping的序列2.fq} -S {輸出的SAM檔}
+```
+
+
 
