@@ -141,7 +141,7 @@ conda activate
 diamond makedb --in{要參考的data base(.fa)} --db {見好的database名字}
 
 #Blast
-diamond blastx --db {database} --query {要比對的orf} --out{輸出的位置}  --id{idendity%} --p{線程} -e {e值} --query-cover{query coverage%}
+diamond blastx --db {database} --query {要比對的orf} --out{輸出的位置}  --id{idendity%} --p{線程} -e {e值} --query-cover{query coverage%} --k {最多可以回報幾個target，設定1就好}
 ```
 
 ### Bowtie2
