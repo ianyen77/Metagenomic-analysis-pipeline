@@ -125,7 +125,24 @@ $conda install -c bioconda prodigal
 conda activate
 $prodigal -i {準備預測的contig} -f 輸出的格式 -p meta(此參數在調整你要選擇在那一種模式下跑 meta就是metagenomic) -o {你要輸出的資料夾位置} -a {輸出基因的核酸文件} -d {輸出基因的蛋白質序列} -s {輸出預測的分數文件}
 ```
+### Diamond  
+faster BlastX and BlastP   
+https://github.com/bbuchfink/diamond/wiki/3.-Command-line-options     
 
+**Install**    
+```
+conda install -c bioconda diamond
+conda update diamond
+```  
+**Usage**  
+```
+conda activate
+#fist step make DB you want to alignment
+diamond makedb --in{要參考的data base(.fa)} --db {見好的database名字}
+
+#Blast
+diamond blastx --db {database} --query {要比對的orf} --out{輸出的位置}  --id{idendity%} --p{線程} -e {e值} --query-cover{query coverage%}
+```
 
 ### Bowtie2
 mappinng reads to contigs then use sam tools to caculate contigs coverage   
@@ -157,6 +174,7 @@ conda activate samtools
 $samtools ........
 ＃samtool 的用法很多 可以參考下列 如果有不知道的參數 samtools --help{conmand}
 ＃https://zhuanlan.zhihu.com/p/89896205
+```
  
 
 
