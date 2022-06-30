@@ -141,7 +141,7 @@ $conda install -c bioconda prodigal
 **Usage**   
 ```
 conda activate
-$prodigal -i {準備預測的contig} -f 輸出的格式 -p meta(此參數在調整你要選擇在那一種模式下跑 meta就是metagenomic) -o {你要輸出的資料夾位置} -a {輸出基因的核酸文件} -d {輸出基因的蛋白質序列} -s {輸出預測的分數文件}
+$prodigal -i {準備預測的contig} -f 輸出的格式 -p meta(此參數在調整你要選擇在那一種模式下跑 meta就是metagenomic) -o {你要輸出的資料夾位置} -d {輸出基因的核酸文件} -a {輸出基因的蛋白質序列} -s {輸出預測的分數文件}
 ```
 ### Diamond  
 faster BlastX and BlastP   
