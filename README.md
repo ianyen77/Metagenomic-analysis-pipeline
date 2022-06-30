@@ -1,4 +1,4 @@
-# Metagenomic-tools-Basicinstallation&Usage 
+# Metagenomic tools-Basic installation&Usage 
 
 ## Reads Download/QC/Trimming
 
