@@ -1,4 +1,4 @@
-# Metagenomic-analysis-pipeline 
+# Metagenomic-tools-Basicinstallation&Usage 
 
 ## Reads Download/QC/Trimming
 
