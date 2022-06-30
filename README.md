@@ -76,7 +76,25 @@ $cd $DBNAME
 # 下載物種註釋資料庫
 kraken2-build --download-taxonomy --threads{你要使用之線程數} --db $DBNAME
 ```
+**Usage**   
+
+## ARG Profile   
+### ARGS-OAP   
+short reads ARG mapping to SARG2.2 DB  
+https://github.com/xiaole99/ARGs_OAP_v2_manual   
+**Install**  
+去https://smile.hku.hk/SARG 點開ARGs-OAP後直接下載2.2版本  
+```
+~$ mkdir ARGs-OAP
+#接著把下載好的檔案在 ARGs-OAP解壓
+#因為他們把bin裡面的usearch刪掉了，所以我們需要自己去usearch 下載32，並把他命名為usearch 並把她拉進bin裡  
+cd ../bin
+bin$ chmod 755 usearch
+```
 **Usage**  
+```
+./argoap_pipeline_stageone_version2 -i {放有輸入 reads 的資料夾，其需要是.fq} -o {輸出資料夾} -m {meta-data文件} -n {線程數}
+```
 
 ## Assembly
 ### Megahit
